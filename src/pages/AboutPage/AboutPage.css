@@ -1,0 +1,36 @@
+.about {
+  margin: 25px;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: aqua;
+  color: white;
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  text-shadow: 1px 1px 5px black;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 5px grey;
+}
+
+.description {
+  font-size: 20px;
+  text-shadow: 1px 1px 5px black;
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    max-width: 375px;
+  }
+}
